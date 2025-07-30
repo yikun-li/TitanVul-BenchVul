@@ -31,7 +31,7 @@ vulnerability detection:
 ```
 .
 ├── datasets/
-│   ├── BenchVul.csv                 # Benchmark for Top 25 Most Dangerous CWEs
+│   ├── BenchVul.csv.zip             # Benchmark for Top 25 Most Dangerous CWEs
 │   └── TitanVul.csv.zip             # High-quality training dataset
 ├── vulnerability_generation/        # RVG framework for synthetic data
 ├── vulnerability_fixing_detection/  # Multi-agent fix detection pipeline
