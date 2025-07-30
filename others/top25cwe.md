@@ -22,14 +22,14 @@ To address these concerns and to ensure comprehensive and unambiguous coverage, 
 analysis of the Top 25 CWE list, illustrated in the provided hierarchy figure. Based on this analysis, we:
 
 1. **Removed ambiguous second-level CWEs** that lack sufficient detail and conflict with more precise, third-level CWEs.
-   This led us to remove CWE-119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) and CWE-287 (
-   Improper Authentication).
+   This led us to remove CWE-119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) and CWE-287
+   (Improper Authentication).
 
 2. **Resolved label confusion** between CWE-78 (OS Command Injection) and CWE-77 (Command Injection). Through manual
    inspection, we observed frequent confusion and interchangeable usage of these labels across datasets. Consequently,
    we removed CWE-78 to eliminate ambiguity and maintain clarity.
 
-3. **Removed overly broad CWEs**, such as CWE-20 (Improper Input Validation), because our detailed inspection revealed
+3. **Removed overly broad CWEs**, i.e., CWE-20 (Improper Input Validation), because our inspection revealed
    that vulnerabilities labeled under CWE-20 often depended explicitly on more detailed CWEs like CWE-79 (Cross-site
    Scripting), CWE-89 (SQL Injection), and CWE-94 (Code Injection). As CWE-20 serves more as a general category of
    weaknesses rather than a specific vulnerability type, it was removed for precision.
