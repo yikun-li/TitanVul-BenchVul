@@ -50,7 +50,7 @@ vulnerability detection:
 
 ### TitanVul Dataset
 
-* **Scale**: 35,045 vulnerability-fix function pairs
+* **Scale**: 38,863 vulnerability-fix function pairs
 * **Quality**: Constructed via a multi-agent LLM framework, combining seven public datasets, extensive deduplication,
   and rigorous validation
 * **Purpose**: High-quality training data for developing generalizable models
