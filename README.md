@@ -12,6 +12,7 @@
     | 📝&nbsp;<a href="#-citation">Citation</a>
 </p>
 
+- **(2025-09-30)** We updated the most recent CVE descriptions in the TitanVul dataset.
 - **(2025-07-31)** We released our paper and dataset for reproducibility.
 - **(2025-08-11)** We updated the dataset to include more metadata.
 
