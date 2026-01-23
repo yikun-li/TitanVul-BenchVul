@@ -43,6 +43,12 @@ vulnerability detection:
 
 ## 📚 Datasets
 
+### Dataset Access
+
+The TitanVul and BenchVul datasets are hosted on Hugging Face for ease of access and reproducibility:
+
+👉 **Hugging Face Datasets**: [TitanVul](https://huggingface.co/datasets/yikun-li/TitanVul) | [BenchVul](https://huggingface.co/datasets/yikun-li/BenchVul)
+
 ### BenchVul Benchmark
 
 * **Balanced**: 50 vulnerable + 50 fixed samples per CWE
